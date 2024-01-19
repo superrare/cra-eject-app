@@ -7,4 +7,4 @@
 `make local-web`
 
 ## run build
-``
+`make local-build`
