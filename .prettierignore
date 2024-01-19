@@ -1,0 +1,6 @@
+./node_modules/*
+**/node_modules/*
+reports
+**/coverage/*
+**/build/*
+**/__snapshots__/*

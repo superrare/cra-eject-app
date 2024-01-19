@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /tokenize
+Disallow: /mint
+Disallow: /whitelist
+Disallow: /api/
+
+Sitemap: https://superrare.com/sitemap/sitemap-master.xml

@@ -1,0 +1,17 @@
+{
+  "short_name": "SuperRare",
+  "name": "SuperRare | CryptoArt | NFT Art Marketplace | Digital Art",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "description": "SuperRare is the digital art market on Ethereum. Each artwork is authentically created by an artist in the network, and tokenized as a collectible digital item that you can own, display and trade.",
+  "iconPath": "favicon.png",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: superrare.co
+Token: 230c8368fb8b819141f0f5d7ea4a317d65f86393e5df4f423acfb5f3b7a1d900

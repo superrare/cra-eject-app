@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="285px" height="484px" viewBox="0 0 285 484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="120" height="36" rx="18"></rect>
+        <filter x="-19.2%" y="-52.8%" width="138.3%" height="227.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Auctions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_auctionweek_1680" transform="translate(-225.000000, -1410.000000)">
+            <g id="1" transform="translate(225.000000, 1141.000000)">
+                <g id="0" transform="translate(0.000000, 269.000000)">
+                    <path d="M285,392 L285,484 L0,484 L0,392 L285,392 Z M65,367 L65,377 L15,377 L15,367 L65,367 Z M105,338 L105,356 L15,356 L15,338 L105,338 Z M240,300 C246.627417,300 252,305.372583 252,312 C252,318.627417 246.627417,324 240,324 C233.372583,324 228,318.627417 228,312 C228,305.372583 233.372583,300 240,300 Z M143,304 L143,318 L15,318 L15,304 L143,304 Z M285,0 L285,285 L0,285 L0,0 L285,0 Z" id="Layout" fill="#D8D7D4"></path>
+                    <g id="Badge" transform="translate(15.000000, 15.000000)">
+                        <g id="Base">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="coMing-soon" font-family="FoundersGrotesk-Medium, Founders Grotesk" font-size="10" font-weight="400" letter-spacing="1.2" fill="#FFFFFF">
+                            <tspan x="21" y="21">COMING SOON</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
