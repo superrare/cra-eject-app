@@ -30,8 +30,8 @@ require-env:
 ################################################
 local-web: ## Run web services locally
 	make require-env
-	@bash -l -c 'nvm exec --silent npm run start'
+	@bash -l -c 'nvm exec -- npm run start'
 
 local-build: ## Build web services locally
 	make require-env
-	@bash -l -c 'nvm exec --silent npm run build'
+	@bash -l -c 'nvm exec -- npm run build'
