@@ -269,7 +269,6 @@ module.exports = function (webpackEnv) {
             },
             sourceMap: shouldUseSourceMap
           },
-          
         }),
         // This is only used in production mode
         new CssMinimizerPlugin()
