@@ -99,20 +99,20 @@ root.render(
   <QueryClientProvider client={queryClient}>
     <Provider store={store}>
       <WagmiConfig config={wagmiConfig}>
-        {/* <RainbowKitProvider
+        <RainbowKitProvider
           theme={lightTheme({ borderRadius: 'none' })}
           appInfo={{
             appName: 'SuperRare',
             disclaimer: SRDisclaimer
           }}
           chains={chains}
-        > */}
+        >
           <BrowserRouter>
             <App>
               <Routes />
             </App>
           </BrowserRouter>
-        {/* </RainbowKitProvider> */}
+        </RainbowKitProvider>
       </WagmiConfig>
     </Provider>
   </QueryClientProvider>
