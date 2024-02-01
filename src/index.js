@@ -8,7 +8,7 @@ import '@rainbow-me/rainbowkit/styles.css'
 import {
   RainbowKitProvider,
   connectorsForWallets,
-  lightTheme
+  lightTheme,
 } from '@rainbow-me/rainbowkit'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi'
 import { mainnet, sepolia } from 'wagmi/chains'
@@ -33,6 +33,8 @@ import App from './containers/App'
 import './css/index.css'
 import { SRDisclaimer } from 'components/SRDisclaimer'
 import { ALCHEMY_API_KEY, WC_PROJECT_ID } from 'constants/environment'
+import { publicProvider } from 'wagmi/providers/public';
+
 
 WebFontLoader.load({
   google: {
@@ -58,9 +60,9 @@ const store = configureStore()
 const projectId = WC_PROJECT_ID
 
 //rainbow config
-const { chains, provider } = configureChains(
+const { chains, provider, publicClient } = configureChains(
   [mainnet, sepolia],
-  [alchemyProvider({ apiKey: ALCHEMY_API_KEY })]
+  [alchemyProvider({ apiKey: ALCHEMY_API_KEY }), publicProvider()]
 )
 // eslint-disable-next-line no-debugger
 const connectors = connectorsForWallets([
@@ -89,7 +91,7 @@ const connectors = connectorsForWallets([
 const wagmiConfig = createConfig({
   autoConnect: true,
   connectors,
-  provider
+  publicClient
 })
 const container = document.getElementById('root')
 const root = createRoot(container)
